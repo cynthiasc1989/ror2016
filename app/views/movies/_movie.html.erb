@@ -1,0 +1,8 @@
+<div class="col-md-4">
+  <div class="movie">
+    <%= image_tag(asset_path("movie_#{movie.id}.jpg"), class: "movie-image") %>
+    <h5 class="card-title"><%= movie.name %></h5>
+    <%= link_to "Show this movie", movie, class: "btn btn-primary" %>
+  </div>
+</div>
+
