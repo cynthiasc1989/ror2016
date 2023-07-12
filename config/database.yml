@@ -83,4 +83,4 @@ production:
   <<: *default
   database: userdb_1udv
   username: ror2023
-  password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
+  password: <%= ENV['BLOCKBUSTER_DATABASE_PASSWORD'] %>
